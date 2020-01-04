@@ -8,15 +8,21 @@
 
 import Foundation
 
-class Person {
-    var height : Float = 0.0
-    var weight : Float = 0.0
+struct CoordinatePoint{
+    var x : Int
+    var y : Int
+    
+    func oppositePoint() -> Self{
+        return CoordinatePoint(x: -x, y: -y)
+    }
+    
+    mutating func setOppsitePoint(_ opposite: CoordinatePoint){
+        x = -opposite.x;
+        y = -opposite.y;
+    }
 }
 
-var yagom : Person = Person()
-var friend : Person = yagom
-let anotherFriend : Person = Person()
+var yagomPosition : CoordinatePoint = CoordinatePoint(x: 10, y:20)
+print(yagomPosition)
 
-print(yagom === friend)
-print(yagom === anotherFriend)
-print(friend !== anotherFriend)
+print(yagomPosition.oppositePoint())
