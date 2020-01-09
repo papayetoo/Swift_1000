@@ -8,21 +8,32 @@
 
 import Foundation
 
-struct CoordinatePoint{
-    var x : Int
-    var y : Int
-    
-    func oppositePoint() -> Self{
-        return CoordinatePoint(x: -x, y: -y)
-    }
-    
-    mutating func setOppsitePoint(_ opposite: CoordinatePoint){
-        x = -opposite.x;
-        y = -opposite.y;
-    }
-}
 
-var yagomPosition : CoordinatePoint = CoordinatePoint(x: 10, y:20)
-print(yagomPosition)
+//var levelClassInstance : LevelClass = LevelClass()
+//levelClassInstance.levelUp()
+//// Level 1
+//levelClassInstance.levelDown()
+//// Level 0
+//levelClassInstance.levelDown()
+//// Level -1
+//// Reset!
+//// Level 0
+//levelClassInstance.jumpLevel(to: 3)
 
-print(yagomPosition.oppositePoint())
+//var toggle : OnOffSwitch = OnOffSwitch.off
+//toggle.nextState()
+//print(toggle)
+//
+//
+//AClass.staticTypeMethod()
+//AClass.classTypeMethod()
+//BClass.classTypeMethod()
+
+SystemVolume.volume = 10
+let myNavi : Navigation =  Navigation()
+
+myNavi.guideWay()
+print(SystemVolume.volume)
+
+myNavi.finishGuideWay()
+print(SystemVolume.volume)
