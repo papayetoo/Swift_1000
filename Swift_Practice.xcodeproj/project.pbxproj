@@ -15,6 +15,8 @@
 		0049D91C23ACBC3B001EA74D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049D91B23ACBC3B001EA74D /* main.swift */; };
 		0082893723C74C2800BB2134 /* InstanceMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0082893623C74C2800BB2134 /* InstanceMethod.swift */; };
 		0082893923C751CA00BB2134 /* TypeMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0082893823C751CA00BB2134 /* TypeMethod.swift */; };
+		00971F4223E16F5B003144DD /* ch20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00971F4123E16F5B003144DD /* ch20.swift */; };
+		00971F4423E18E91003144DD /* ch21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00971F4323E18E91003144DD /* ch21.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +41,8 @@
 		0049D91B23ACBC3B001EA74D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0082893623C74C2800BB2134 /* InstanceMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceMethod.swift; sourceTree = "<group>"; };
 		0082893823C751CA00BB2134 /* TypeMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeMethod.swift; sourceTree = "<group>"; };
+		00971F4123E16F5B003144DD /* ch20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ch20.swift; sourceTree = "<group>"; };
+		00971F4323E18E91003144DD /* ch21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ch21.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				0046C2BF23D1A2BD006F526B /* ch14.swift */,
 				00488E2B23DF04FD004E862A /* ch18.swift */,
 				00488E2D23DF16BC004E862A /* ch19.swift */,
+				00971F4123E16F5B003144DD /* ch20.swift */,
+				00971F4323E18E91003144DD /* ch21.swift */,
 			);
 			path = Swift_Practice;
 			sourceTree = "<group>";
@@ -144,10 +150,12 @@
 				0049D91C23ACBC3B001EA74D /* main.swift in Sources */,
 				0046C2C023D1A2BD006F526B /* ch14.swift in Sources */,
 				00488E2E23DF16BC004E862A /* ch19.swift in Sources */,
+				00971F4423E18E91003144DD /* ch21.swift in Sources */,
 				004861C823CDE21100F1EECD /* Closure.swift in Sources */,
 				00488E2C23DF04FD004E862A /* ch18.swift in Sources */,
 				0082893923C751CA00BB2134 /* TypeMethod.swift in Sources */,
 				0046C2BE23D1993C006F526B /* ch17.swift in Sources */,
+				00971F4223E16F5B003144DD /* ch20.swift in Sources */,
 				0082893723C74C2800BB2134 /* InstanceMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
